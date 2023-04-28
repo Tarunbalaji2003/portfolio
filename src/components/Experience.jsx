@@ -65,11 +65,7 @@ const Experience = () => {
       <p className={styles.sectionSubText}>What I have done so far</p>
       <h2 className={styles.sectionHeadText}>Project Experience</h2>
       <p className='mt-3 text-secondary text-[17px] max-w-3xl leading-[30px]'>
-          Following projects showcases my skills and experience through
-          real-world projects. Each project is briefly described with
-          links to code repositories and live demos in it. It reflects my
-          ability to solve complex problems, work with different technologies,
-          and manage projects effectively.
+          I would like to show case the projects that I have been worked so far and I would be updating the live videos and github pages in due course of time.
         </p>
     </motion.div>
     

@@ -28,8 +28,8 @@ const Contact = () => {
     'template_zh4qh19',
     {
       from_name: form.name,
-      to_name: 'Sriharish',
-      to_email: 'sriharish.cs21@bitsathy.ac.in',
+      to_name: 'Tarunbalaji',
+      to_email: 'tarunbalaji170703@gmail.com',
       from_email: form.email,
       message:form.message,
 

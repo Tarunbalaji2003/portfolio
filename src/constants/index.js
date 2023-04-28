@@ -30,6 +30,7 @@ import {
     scopus,
     meta,
     
+    
   } from "../assets";
   
   export const navLinks = [
@@ -54,20 +55,16 @@ import {
   
   const services = [
     {
-      title: "Web Developer",
+      title: "Data Scientist",
       icon: web,
     },
     {
-      title: "Trainer",
+      title: "MERN Stack Developer",
       icon: mobile,
     },
     {
-      title: "Backend Developer",
+      title: "AWS",
       icon: backend,
-    },
-    {
-      title: "Software Developer",
-      icon: creator,
     },
   ];
   
@@ -89,8 +86,8 @@ import {
       icon: cpp,
     },
     {
-      name: "flask",
-      icon: flask,
+      name: "clogo",
+      icon: clogo,
     },
     {
       name:"linux",
@@ -99,88 +96,72 @@ import {
       name: "mysql",
       icon: sql,
     },
-    {
-      name: "qt",
-      icon: qt,
-    },
+  
     {
       name: "nivia",
       icon: nvidia,
     },
-    {
-      name: "clogo",
-      icon: clogo,
-    },
+  
     {
       name: "python",
       icon: python,
     },
-    {
-      name: "nmap",
-      icon: nmap,
-    },
-    {
-      name: "raspberrypi",
-      icon: raspberrypi,
-    },
+   
+   
   ];
   
   const experiences = [
     {
-      title: "UI For SIX-AXIS ROBOT",
+      title: "Food Order Website ",
       company_name: "OpenCV",
       icon: tesla,
       role:"Frontend Dev",
       iconBg: "#E6DEDD",
       date: "Mar 2023 - Present",
       points: [
-        "A automated robot used for Industrial purpose",
-        "3D model UI which is used to control and monitor the Robot",
-        "3D graph visualization to showcase the  movement of robot",
-        "QT / QML frameworks which uses C / C++ classes effecively",
-        "Movemnts of the robot, saved State of the robot can be shared accross the network using TCP"
-      ],
+        " A React Js based website for food ordering system",
+            ],
     },
     {
-      title: "Communication-Hearing-Impaired-People",
-      company_name: "SIH 2022",
-      role:"TeamLead, Backend Dev",
+      title: "License Plate Recongition System ",
+      company_name: "BIT",
+      role:" Backend Dev",
       icon: starbucks,
       iconBg: "#383E56",
       date: "Jun 2022 - Aug 2022",
       points: [
-        "Assists people with hearing difficulties to communicate effectively with society by using audio input to identify direction of sound source and sends signals to vibrators for alerts",
-        "Uses NVIDIA 's Jetson nano for processing the audio  and Arduino UNO for hardware setup and Runs various AI and python Algorithms for higher efficiency",
-        "Includes camera for sign language recognition, phone call indication feature which has text-to-speech to assist the people with hearing difficulties",
-        "Developed a Universal Platform for the Communication between deaf & dumb and a Normal one",
+        " The main aim of this project is barricade automation for the college using Edge computing .",
+        " The custom trained yolo V5  model has been genrated basis on the our own Dataset consists our college images.",
+        " The input is proceesed in Edge computing Device(Jetson Nano Developer Kit) with the YOLO model generated.",
+        " The OCR is used to extract the text form the Number plate and verify from the db and open the barricade. ",
       ],
     },
     {
-      title: "SPEECH-RECOGNITION AI MODEL FOR TRIBEL AREA",
+      title: "NLU Based Chat-Bot using RASA ",
       company_name: "Shopify",
       icon: shopify,
-      role:'Backend Dev , Frontend Dev',
+      role:'Backend Dev , ',
       iconBg: "#383E56",
       date: "Feb 2022 - March 2022",
       points: [
-        "Take any language as an Input",
-        "Converts the Input audio into the desired text output selected by the user",
-        "To improve HCI the Backend is Connected to an UI using Tinkter",
+        "It works under the concept  Natural Language Understanding. ",
+        "It understands the user input and gives output from the API integrated. ",
+        "It genrates automated replies basis on the stories given.",
       ],
     },
     {
-      title: "VIRTUAL MOUSE",
+      title: "NLP based Voice Assistant for students ",
       company_name: "OpenCV",
       icon: meta,
       role:"Backend Dev",
       iconBg: "#E6DEDD",
       date: "Dec 2021 - Jan 2022",
       points: [
-        "Recognizes the finger tip of the user using OpenCV",
-        "Converts the captured datapoints into Gestures using mediapipe",
-        "Performing the actions of the mouse by moving the hands virtually",
-        "Improves the Human Computer Interaction (HCI) by replacing the mouse",
-        "PowerPoint Presentation using Hand Gestures"
+        " Translates the speech to text and speech in vernacular  languages using NLP.",
+        "Translates the language using gtts API.",
+        "Text summarizer for the content given.",
+        "Question generation forthe staff based on the lecture given. ",
+        
       ],
       
     },
@@ -236,16 +217,10 @@ import {
           name: "SIH2022",
           color: "blue-text-gradient",
         },
-        {
-          name: "Finalist",
-          color: "green-text-gradient",
-        },
-        {
-          name: "TeamLead",
-          color: "pink-text-gradient",
-        },
+       
+       
       ],
-      image: sih,
+      image:sih,
       source_code_link: "https://github.com/",
     },
     {
@@ -258,62 +233,19 @@ import {
           color: "blue-text-gradient",
         },
         {
-          name: "winner",
+          name: "special mention ",
           color: "green-text-gradient",
         },
         {
-          name: "5000",
+          name: "3000",
           color: "pink-text-gradient",
         },
       ],
       image: bit,
       source_code_link: "https://github.com/",
     },
+   
     
-    {
-      name: "archathon",
-      description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-      tags: [
-        {
-          name: "Arcathon",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "winner",
-          color: "green-text-gradient",
-        },
-        {
-          name: "BestProjectAward",
-          color: "pink-text-gradient",
-        },
-        
-      ],
-      image: arch,
-      source_code_link: "https://github.com/",
-    },
-    {
-      name: "krizen",
-      description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
-      tags: [
-        {
-          name: "projectCompetition",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "Inception",
-          color: "green-text-gradient",
-        },
-        {
-          name: "winner",
-          color: "pink-text-gradient",
-        },
-       
-      ],
-      image: winner,
-      source_code_link: "https://github.com/",
-    },
     {
       name: "intern",
       description:
@@ -324,7 +256,7 @@ import {
           color: "blue-text-gradient",
         },
         {
-          name: "ethicalHacking",
+          name: "cyber security",
           color: "green-text-gradient",
         },
        
@@ -332,35 +264,20 @@ import {
       image: ethical,
       source_code_link: "https://github.com/",
     },
-    {
-      name: "trainer",
-      description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
-      tags: [
-        {
-          name: "trainner",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "C /C++ /Qt",
-          color: "pink-text-gradient",
-        },
+    
        
-      ],
-      image: trainer,
-      source_code_link: "https://github.com/",
-    },
+    
     {
       name: "patten",
       description:
         "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
       tags: [
         {
-          name: "pattent",
+          name: "patent",
           color: "green-text-gradient",
         },
         {
-          name: "smartGadget",
+          name: "smart waste management ",
           color: "pink-text-gradient",
         },
        

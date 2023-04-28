@@ -32,7 +32,7 @@ const About = () => {
       <h2 className={styles.sectionHeadText}>Overview</h2>
     </motion.div> 
     <motion.p variants={fadeIn("","",0.1,1)} className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'>
-    Seeking an opportunity to advance my knowledge and skills in Computers, Softwares, Hardwares and Machine Learning through a Under graduate degree program in the field. Passionate about contributing to the development and growth of the industry through my academic and practical experience as an Engineer. 
+      Seeking for a Carrer with gives a consistent learning and develop my interpersonal skills for the betterment for myself and the growth of the comapny. I have experience in the domains of Artificial Intelligence , Networking and MERN . I have also certifed by Cisco Netwrking Acadmey and NVDIA certifed in Deep learning and NLP. I am currently developing the Websites and I have intreset in Cloud COmputing.
     </motion.p>
     <div className='mt-20 flex flex-wrap gap-10'>
       {services.map((service,index) =>(

@@ -25,7 +25,7 @@ const Navbar = () => {
         >
         
         <img src={profile} alt="logo" className="w-10 h-10 rounded-full object-cover" />
-        <p className='text-white text-[18px] font-bold cursor-pointer flex'>Sri&nbsp;|&nbsp;Harish</p>
+        <p className='text-white text-[18px] font-bold cursor-pointer flex'>Tarun Balaji </p>
         </Link>
         
        <ul className='list-none hidden sm:flex flex-row gap-10'>
